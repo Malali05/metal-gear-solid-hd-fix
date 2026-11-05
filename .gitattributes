@@ -1,0 +1,16 @@
+# Exclude build artifacts 
+*.bat text eol=crlf
+
+*.html linguist-vendored
+src/*.ts linguist-detectable
+*.woff2 binary
+*.yml linguist-detectable=false
+
+*.ico binary
+
+*.json linguist-detectable=false
+*.jpg binary
+examples/site/*.html linguist-vendored
+src/** linguist-detectable
+
+* text=auto eol=lf
